@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/TyGosley/friends-with-API-tions#readme",
   "dependencies": {
+    "dayjs": "^1.11.7",
     "express": "^4.18.2",
     "mongoose": "^7.0.4"
   },
