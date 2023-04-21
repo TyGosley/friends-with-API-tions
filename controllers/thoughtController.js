@@ -2,7 +2,7 @@ const { User, Thought } = require("../models");
 
 // /api/users
 const thoughtController = {
-getThought(req, res) {
+getAllThoughts(req, res) {
     Thought.find({})
     .select("-__v")
     .then((dbThoughtData) => res.json(dbThoughtData))
