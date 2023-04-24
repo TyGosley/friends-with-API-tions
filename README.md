@@ -13,6 +13,7 @@ Friends-with-API-tions is a social network web application where users can creat
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Licenses](#licenses)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -45,7 +46,18 @@ Friends-with-API-tions is a social network web application where users can creat
 
 ## Usage
 
-Once the Installation instructions are complete, [CLICK HERE](TODO) to follow my demonstration on how to use `Friends-with-API-tions`
+Once the Installation instructions are complete, you may follow along with my demonstration videos.  Just click the titles below to see how friends-with-API-tions works.
+
+[Demo Video Pt1](https://drive.google.com/file/d/1uyy23JLP8x4YQm3_5BEeDE-RqlGfAneq/view)
+
+[Demo Video Pt1](https://drive.google.com/file/d/13Q1kSlto-z4kWzG7XVz-h4-I-9Sva4eF/view)
+
+---
+
+## ScreenShots
+![](./public/assets/InsomniaFWA-ss.png)
+
+![](./public/assets/MongoDBFWA-ss.png)
 
 ---
 
