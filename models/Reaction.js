@@ -1,5 +1,6 @@
 const { Schema, model, Types } = require('mongoose');
-const dayjs = require('dayjs'); // import dayjs library
+// const dayjs = require('dayjs'); // import dayjs library
+const moment = require('moment'); // import moment library
 const ReactionSchema = new Schema(
     {
         // set custom id to avoid confusion with parent comment _id
@@ -18,7 +19,7 @@ const ReactionSchema = new Schema(
         },
         createdAt: {
             type: Date,
-            default: dayjs().format('MMM DD, YYYY [at] hh:mm a')
+            default: moment().format('L')
         }
     });
 

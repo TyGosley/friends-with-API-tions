@@ -27,8 +27,8 @@ createThought(req, res) {
     Thought.create(req.body)
     .then(({ _id }) => {
         return User.findOneAndUpdate(
-        { _id: req.params.id },
-        { $push: { thoughts: _id } },
+        { _id: req.body.id },
+        { $addToSet: { thoughts: _id } },
         { new: true }
         );
     })
